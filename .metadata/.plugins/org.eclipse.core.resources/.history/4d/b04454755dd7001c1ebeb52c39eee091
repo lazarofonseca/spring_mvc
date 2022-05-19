@@ -1,0 +1,5 @@
+package com.devlazaro.cobranca.controller;
+
+public class Hello {
+
+}

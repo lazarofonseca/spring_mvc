@@ -1,0 +1,156 @@
+!SESSION 2022-03-28 21:41:20.642 -----------------------------------------------
+eclipse.buildId=4.9.0.202012132054
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2022-03-28 21:42:25.222
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-28 21:42:25.222
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@65a66a75,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5a07ae2f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2022-03-28 22:12:27.682
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2022-05-18 05:46:44.771 -----------------------------------------------
+eclipse.buildId=4.9.0.202012132054
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2022-05-18 05:48:37.317
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-05-18 05:48:37.317
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@64eb14da,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@25587290,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2022-05-18 07:44:36.125
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2022-05-19 04:47:11.856 -----------------------------------------------
+eclipse.buildId=4.9.0.202012132054
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2022-05-19 04:49:39.488
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-05-19 04:49:39.488
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@593354fa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6dfebd2a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2022-05-19 07:19:31.226
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-19 07:20:06.597
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-19 07:20:06.598
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@16d34d51[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=572)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-19 07:20:06.615
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-19 07:20:06.872
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-05-19 07:20:18.544
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1950)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2085)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:91)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:348)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:289)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:352)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:351)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-19 07:20:25.627
+!MESSAGE Boot LS startup time from start to initialized: 18998ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-19 07:20:25.956
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.EncQjKHDisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-19 07:20:25.969
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-19 07:20:25.999
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-19 07:20:26.002
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-19 07:20:26.002
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-19 07:20:26.005
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.EncQjKHD => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-19 07:20:26.015
+!MESSAGE classpath=96 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-19 07:20:26.028
+!MESSAGE buffering callback sts4.classpath.EncQjKHD cobranca false 96
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-19 07:20:26.033
+!MESSAGE executing callback sts4.classpath.EncQjKHD 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-19 07:20:26.651
+!MESSAGE executing callback sts4.classpath.EncQjKHD SUCCESS [done]
