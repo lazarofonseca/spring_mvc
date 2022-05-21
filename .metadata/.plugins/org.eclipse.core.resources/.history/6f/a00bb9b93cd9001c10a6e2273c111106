@@ -1,0 +1,5 @@
+package com.devlazaro.cobranca.repository;
+
+public interface TituloRepository {
+
+}

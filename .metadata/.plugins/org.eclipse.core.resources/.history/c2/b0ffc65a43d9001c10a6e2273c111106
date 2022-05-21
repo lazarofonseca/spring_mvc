@@ -23,7 +23,6 @@ public class TituloController {
 	public String salvar(Titulo titulo) {
 		String registroSalvo = tituloService.salvar(titulo);
 		System.out.println(registroSalvo);
-		System.out.println(titulo.getDataVencimento());
 		return "Lista";
 	}
 

@@ -1,5 +1,7 @@
 package com.devlazaro.cobranca.controller;
 
+import java.math.BigDecimal;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,20 +12,18 @@ import com.devlazaro.cobranca.service.TituloService;
 
 @Controller
 public class TituloController {
-
+	
 	@Autowired
 	private TituloService tituloService;
-
+	
 	@RequestMapping("/titulos/novo")
-	public String novo() {
+	public String novo(){
 		return "CadastroTitulo";
 	}
-
+	
 	@RequestMapping(value = "/titulos", method = RequestMethod.POST)
 	public String salvar(Titulo titulo) {
 		String registroSalvo = tituloService.salvar(titulo);
-		System.out.println(registroSalvo);
-		System.out.println(titulo.getDataVencimento());
 		return "Lista";
 	}
 
