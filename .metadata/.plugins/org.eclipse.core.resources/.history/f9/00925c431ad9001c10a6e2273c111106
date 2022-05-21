@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cadastro de Título</title>
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+</head>
+<body>
+
+	<h1>Olá!!</h1>
+
+
+	<script type="text/javascript" src="/js/bootstrap.min.js"/>
+
+</body>
+</html>

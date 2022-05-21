@@ -1,0 +1,5 @@
+package com.devlazaro.cobranca.model.enun;
+
+public enum StatusTitulo {
+
+}
