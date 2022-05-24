@@ -5,10 +5,10 @@ public enum StatusTitulo {
 	PENDENTE("Pendente"),
 	RECEBIDO("Recebido");
 	
+	
 	private String descricao;
 	
 	private StatusTitulo(String decricao) {
-		
 		this.descricao = descricao;
 	}
 
