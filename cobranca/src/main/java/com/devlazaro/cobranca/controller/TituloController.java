@@ -15,12 +15,13 @@ import com.devlazaro.cobranca.model.enun.StatusTitulo;
 import com.devlazaro.cobranca.service.TituloService;
 
 @Controller
+@RequestMapping("/titulos")
 public class TituloController {
 
 	@Autowired
 	private TituloService tituloService;
 
-	@RequestMapping("/titulos/novo")
+	@RequestMapping("/novo")
 	public ModelAndView novo() {
 		ModelAndView mv = new ModelAndView("CadastroTitulo");
 		return mv;
@@ -34,6 +35,10 @@ public class TituloController {
 		return mv;
 	}
 	
+	@RequestMapping
+	public String pesquisar() {
+		return "PesquisaTitulos";
+	}
 	
 	@ModelAttribute("todosStatusTitulo")
 	public List<StatusTitulo> todosStatusTitulo(){

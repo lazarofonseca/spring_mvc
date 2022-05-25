@@ -707,3 +707,121 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-24 17:26:14.916
 !MESSAGE executing callback sts4.classpath.NMByftNB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-24 18:04:55.340
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NMByftNB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-24 18:04:55.341
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.NMByftNB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-24 18:04:55.341
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-24 18:04:55.342
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NMByftNB => OK
+!SESSION 2022-05-25 15:15:06.761 -----------------------------------------------
+eclipse.buildId=4.9.0.202012132054
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2022-05-25 15:16:08.871
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-05-25 15:16:08.871
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2db6ba81,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@10728fe8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:18:44.029
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:18:44.070
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@44c141ce[org.springframework.tooling.boot.ls:1.24.0.202012131915(id=572)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:18:44.158
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:18:44.369
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:19:14.437
+!MESSAGE Boot LS startup time from start to initialized: 30256ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:19:15.064
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BqFQsRefisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:19:15.072
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:19:15.091
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:19:15.094
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:19:15.094
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BqFQsRef => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:19:15.140
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:19:17.290
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:19:17.292
+!MESSAGE buffering callback sts4.classpath.BqFQsRef cobranca false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:19:17.293
+!MESSAGE executing callback sts4.classpath.BqFQsRef 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-25 15:19:17.421
+!MESSAGE executing callback sts4.classpath.BqFQsRef SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2022-05-25 20:03:49.119
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-05-25 20:04:42.564
+!MESSAGE [Info]	Angular language server process ID: 18041
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-05-25 20:04:42.571
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from /home/lazaro/Downloads/spring-tool-suite-4-4.9.0.RELEASE-e4.18.0-linux.gtk.x86_64/sts-4.9.0.RELEASE/plugins/org.eclipse.wildwebdeveloper_0.5.13.202012011111/node_modules/typescript/lib/tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-05-25 20:04:42.573
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from /home/lazaro/Downloads/spring-tool-suite-4-4.9.0.RELEASE-e4.18.0-linux.gtk.x86_64/sts-4.9.0.RELEASE/plugins/org.eclipse.wildwebdeveloper_0.5.13.202012011111/node_modules/@angular/language-service/bundles/language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-05-25 20:04:42.599
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-05-25 20:04:44.949
+!MESSAGE [Info]	Angular language server process ID: 18075
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-05-25 20:04:44.959
+!MESSAGE [Info]	Using typescript/lib/tsserverlibrary v4.0.5 from /home/lazaro/Downloads/spring-tool-suite-4-4.9.0.RELEASE-e4.18.0-linux.gtk.x86_64/sts-4.9.0.RELEASE/plugins/org.eclipse.wildwebdeveloper_0.5.13.202012011111/node_modules/typescript/lib/tsserverlibrary.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-05-25 20:04:44.965
+!MESSAGE [Info]	Using @angular/language-service v10.2.2 from /home/lazaro/Downloads/spring-tool-suite-4-4.9.0.RELEASE-e4.18.0-linux.gtk.x86_64/sts-4.9.0.RELEASE/plugins/org.eclipse.wildwebdeveloper_0.5.13.202012011111/node_modules/@angular/language-service/bundles/language-service.js
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-05-25 20:04:44.974
+!MESSAGE [Info]	Log file: undefined
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-05-25 20:04:50.578
+!MESSAGE [Error]	No config file for /home/lazaro/CURSOS PARA FINALIZAR/ALGAWORKS/Spring MVC/cobranca/src/main/resources/templates/PesquisaTitulos.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-05-25 20:06:09.453
+!MESSAGE [Error]	No config file for /home/lazaro/CURSOS PARA FINALIZAR/ALGAWORKS/Spring MVC/cobranca/src/main/resources/templates/CadastroTitulo.html
